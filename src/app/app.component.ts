@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
-import '../../style/app.less';
-import { UrlConstants } from '../constants';
+import '../style/app.less';
+import { UrlConstants } from './constants';
 
 @Component({
   selector: 'my-app', // <my-app></my-app>

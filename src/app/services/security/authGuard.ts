@@ -6,7 +6,9 @@ import { UrlConstants } from '../../constants';
 @Injectable()
 export class AuthGuard implements CanActivate, CanActivateChild {
 
-    constructor(private _auth: Auth, private _router: Router) {}
+    constructor(private _auth: Auth, private _router: Router) {
+        debugger;
+    }
 
     checkAuth(url: string): boolean {
         if (this._auth.authenticated) {
