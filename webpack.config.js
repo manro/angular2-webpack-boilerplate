@@ -125,7 +125,7 @@ module.exports = function makeWebpackConfig() {
       // all css required in src/app files will be merged in js files
       {test: /\.css$/, include: root('src', 'app'), loader: 'raw!postcss'},
 
-      // support for .scss files
+      // support for .less files
       // use 'null' loader in test mode (https://github.com/webpack/null-loader)
       // all css in src/style will be bundled in an external css file
       {
